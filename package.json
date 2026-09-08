@@ -1,0 +1,15 @@
+{
+  "name": "pocketbase-render-server",
+  "version": "1.0.0",
+  "description": "Auto-download and run PocketBase on Render without Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "decompress": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
